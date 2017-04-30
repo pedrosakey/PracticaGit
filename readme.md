@@ -29,11 +29,11 @@
 
 - El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 	
-	NO, merge no fast forward crea un commit nuevo con dos padres y avanza la rama styled a ese commit
+	SI, porque es el mismo archivo en ramas diferentes y se han modificado las mismas lineas
 
 - El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 
-	NO, merge fast-forward master avanza al commit de styled
+	NO, porque git puede combinar los cambios
 
 
 - ¿Qué comando o comandos utilizaste en el paso 25?
@@ -73,7 +73,8 @@
  	*git checkout git-nuestro.md*
 
 - ¿Qué comando o comandos utilizaste en el paso 29?
-	
+
+	git checkout master
 	*git branch -D title*
 
 - ¿Qué comando o comandos utilizaste en el paso 30?
